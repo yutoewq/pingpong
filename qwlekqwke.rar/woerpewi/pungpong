@@ -1,0 +1,9 @@
+import pygame
+from pygame import * 
+
+res = (800,700)
+
+main_win = pygame.display.set_mode(res)
+pygame.display.set_caption('pingpongus(AMOGUS)')
+
+racket1 = pygame.image.load(player.png)
